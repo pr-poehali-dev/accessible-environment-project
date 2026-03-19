@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1773918913406041586.html"
 	],
 	prefix: "",
 	theme: {
@@ -17,6 +18,9 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+				golos: ["'Golos Text'", "sans-serif"],
+			},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
