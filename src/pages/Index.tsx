@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
 /* ─── Images ─── */
-const IMG_HERO   = "https://cdn.poehali.dev/projects/8c8138d6-51cc-4928-b421-cfc385f0d4c0/files/4269e1d9-3317-4287-80ba-e94b0c001c29.jpg";
+const IMG_HERO   = "https://cdn.poehali.dev/projects/8c8138d6-51cc-4928-b421-cfc385f0d4c0/files/9bb12180-ad48-4623-b26c-da70b9101d50.jpg";
 const IMG_LIFT   = "https://cdn.poehali.dev/projects/8c8138d6-51cc-4928-b421-cfc385f0d4c0/files/cb9fabdb-a6fb-471a-a17d-74b05f0f43d9.jpg";
 const IMG_TACTIL = "https://cdn.poehali.dev/projects/8c8138d6-51cc-4928-b421-cfc385f0d4c0/files/c42e80da-7140-4f42-ae10-96d3b3e7dfdb.jpg";
 const IMG_AI     = "https://cdn.poehali.dev/projects/8c8138d6-51cc-4928-b421-cfc385f0d4c0/files/36d2111c-2732-415b-8e9e-9fcc7e69f9de.jpg";
@@ -251,8 +251,9 @@ export default function Index() {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img src={IMG_HERO} alt="Доступная среда" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1a0e]/97 via-[#0d2016]/85 to-[#0d2016]/50" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a0e]/70 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[#060f08]/75" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#060f08]/98 via-[#060f08]/90 to-[#060f08]/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#060f08]/80 via-transparent to-transparent" />
         </div>
 
         {/* Animated blobs */}
